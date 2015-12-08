@@ -37,7 +37,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "cucumber", "~> 2.0.0"
   s.add_development_dependency "rspec", "~> 3.2.0"
   s.add_development_dependency "sham_rack"
-  s.add_development_dependency "fog", ">= 1.35.0"
+  s.add_development_dependency "fog", ">= 1.36.0"
   s.add_development_dependency "mini_magick", ">= 3.6.0"
   if RUBY_ENGINE != 'jruby'
     s.add_development_dependency "rmagick"
